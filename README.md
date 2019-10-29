@@ -1,5 +1,17 @@
 # Aplicación de Patrones de Diseño
 
+## Patron Observador
+
+Se escogió este patron debido a que se considera que las impresoras estan a la espera de que el sistema les notifique que pueden realizar la impresión solicitada por el usuario con anterioridad
+
+### Diagrama de clases
+
+![Diagrama-de-clases](Diagrama-de-clases.png)
+
+### Diagrama de secuencia
+
+![Diagrama-de-secuencia](Diagrama-de-secuencia.png)
+
 ## Enunciado
 
 ### Contexto
@@ -19,7 +31,6 @@ Se desea entonces, elaborar un Sistema de Impresion capaz de permitir que 1 o ma
 2. Modelar en un diagrama de clases y de secuencia los componentes necesarios para dar soporte al punto 1.
 3. Presentar la implementacion, en el lenguaje de su preferencia, la implementación para el diseño expuesto en los puntos 1 y 2.
  
-
 ### Método de Entrega
 
 1. URL del repositorio con los artefactos mencionados en la seccion de Requerimientos.

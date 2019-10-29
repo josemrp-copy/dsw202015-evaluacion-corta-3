@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Evaluación corta 3</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="app.js"></script>
+</head>
+<body>
+  <div>
+    <h1>Sistema de impresoras</h1>
+    <h4>Abrir la consola para ver los resultados</h4>
+    <hr>
+    <h2>Nuevo trabajo</h2>
+    <input type="text" id="titulo" placeholder="título">
+    <input type="number" id="paginas" placeholder="páginas" min="1">
+    <br>
+    <small>
+      <i><b>Nota:</b> cada página tardará un segundo en imprimirse.</i>
+    </small>
+    <hr>
+    <div class="impresora">
+      <h3>Impresora 1</h3>
+      <button onclick="añadirTrabajoAImpresora(impresora1)">Añadir a esta impresora</button>
+    </div>
+    <div class="impresora">
+      <h3>Impresora 2</h3>
+      <button onclick="añadirTrabajoAImpresora(impresora2)">Añadir a esta impresora</button>
+    </div>
+    <div class="impresora">
+      <h3>Impresora 3</h3>
+      <button onclick="añadirTrabajoAImpresora(impresora3)">Añadir a esta impresora</button>
+    </div>
+  </div>
+</body>
+</html>
